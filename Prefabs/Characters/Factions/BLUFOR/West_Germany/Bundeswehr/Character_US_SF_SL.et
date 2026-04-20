@@ -7,5 +7,23 @@ SCR_ChimeraCharacter : "{894628A45793E7A0}Prefabs/Characters/Factions/BLUFOR/US_
     m_Image "{C154DED5E46FAE00}UI/PreviewImages/Characters/BLUFOR/US/BW/12_BCR.edds"
    }
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo NVS_NVGSlot {
+     Prefab "{6A731F236D8AD85A}Prefabs/Characters/Items/NVG/PVS5C.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+     PrefabsToSpawn {
+      "{CE4C554BC595C64B}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_1CH.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{756231FF84F158A4}Prefabs/Weapons/Flares/FlareStarParachute_M126A1_red.et" "{51D9E3AEC8476BA4}Prefabs/Weapons/Flares/FlareStarParachute_M195_green.et"
+     }
+    }
+   }
+  }
  }
+ coords 0 0 0
+ angles 0 -62.5 0
 }

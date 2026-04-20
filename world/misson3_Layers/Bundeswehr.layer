@@ -97,12 +97,6 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
     Enabled 1
     MultiSlots {
-     MultiSlotConfiguration "{691687ECFC010DC9}" {
-      SlotTemplate InventoryStorageSlot pnv {
-       Prefab "{6A731F236D8AD85A}Prefabs/Characters/Items/NVG/PVS5C.et"
-      }
-      NumSlots 2
-     }
      MultiSlotConfiguration "{691687EC6CF647AB}" {
       SlotTemplate InventoryStorageSlot m67 {
        Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
@@ -150,12 +144,6 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
     Enabled 1
     MultiSlots {
-     MultiSlotConfiguration "{691687ECFC010DC9}" {
-      SlotTemplate InventoryStorageSlot pnv {
-       Prefab "{6A731F236D8AD85A}Prefabs/Characters/Items/NVG/PVS5C.et"
-      }
-      NumSlots 2
-     }
      MultiSlotConfiguration "{691687EC6CF647AB}" {
       SlotTemplate InventoryStorageSlot m67 {
        Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
@@ -203,12 +191,6 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
     Enabled 1
     MultiSlots {
-     MultiSlotConfiguration "{691687ECFC010DC9}" {
-      SlotTemplate InventoryStorageSlot pnv {
-       Prefab "{6A731F236D8AD85A}Prefabs/Characters/Items/NVG/PVS5C.et"
-      }
-      NumSlots 2
-     }
      MultiSlotConfiguration "{691687EC6CF647AB}" {
       SlotTemplate InventoryStorageSlot m67 {
        Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
@@ -256,12 +238,6 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
     Enabled 1
     MultiSlots {
-     MultiSlotConfiguration "{691687ECFC010DC9}" {
-      SlotTemplate InventoryStorageSlot pnv {
-       Prefab "{6A731F236D8AD85A}Prefabs/Characters/Items/NVG/PVS5C.et"
-      }
-      NumSlots 2
-     }
      MultiSlotConfiguration "{691687EC6CF647AB}" {
       SlotTemplate InventoryStorageSlot m67 {
        Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
@@ -309,12 +285,6 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
     Enabled 1
     MultiSlots {
-     MultiSlotConfiguration "{691687ECFC010DC9}" {
-      SlotTemplate InventoryStorageSlot pnv {
-       Prefab "{6A731F236D8AD85A}Prefabs/Characters/Items/NVG/PVS5C.et"
-      }
-      NumSlots 2
-     }
      MultiSlotConfiguration "{691687EC6CF647AB}" {
       SlotTemplate InventoryStorageSlot m67 {
        Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
@@ -362,12 +332,6 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
     Enabled 1
     MultiSlots {
-     MultiSlotConfiguration "{691687ECFC010DC9}" {
-      SlotTemplate InventoryStorageSlot pnv {
-       Prefab "{6A731F236D8AD85A}Prefabs/Characters/Items/NVG/PVS5C.et"
-      }
-      NumSlots 2
-     }
      MultiSlotConfiguration "{691687EC6CF647AB}" {
       SlotTemplate InventoryStorageSlot m67 {
        Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
@@ -415,12 +379,6 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
     Enabled 1
     MultiSlots {
-     MultiSlotConfiguration "{691687ECFC010DC9}" {
-      SlotTemplate InventoryStorageSlot pnv {
-       Prefab "{6A731F236D8AD85A}Prefabs/Characters/Items/NVG/PVS5C.et"
-      }
-      NumSlots 2
-     }
      MultiSlotConfiguration "{691687EC6CF647AB}" {
       SlotTemplate InventoryStorageSlot m67 {
        Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"

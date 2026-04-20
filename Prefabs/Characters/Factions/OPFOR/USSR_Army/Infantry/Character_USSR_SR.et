@@ -6,5 +6,22 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
     m_Image "{1E6194CCA9E2B012}UI/PreviewImages/Characters/OPFOR/USSR/Infantry/10_BCR.edds"
    }
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{B35E9404DC25B03E}Prefabs/Items/Backpacks/Backpack_CombatPack/Backpack_CombatPack_TarpRoll.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{692958EBD6DEF3A5}" {
+     TargetStorage "Back/Backpack_CombatPack_TarpRoll.et"
+     PrefabsToSpawn {
+      "{39ED11CFD21DBBD2}Prefabs/Weapons/Attachments/Optics/Optic_4x20/ARY_Optic_1PN51.et"
+     }
+    }
+   }
+  }
  }
 }

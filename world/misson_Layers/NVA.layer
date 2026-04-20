@@ -150,9 +150,7 @@ $grp SCR_AIGroup : "{15D74947D242F2C1}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_Cre
   }
   coords 8725.417 832.154 9116.709
   angles -6.319 -29.176 1.482
-  m_aUnitPrefabSlots {
-   "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et"
-   "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+  m_aUnitPrefabSlots +{
   }
   m_bSetPlayable 1
  }
@@ -172,9 +170,7 @@ $grp SCR_AIGroup : "{15D74947D242F2C1}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_Cre
   }
   coords 8717.99 830.652 9133.25
   angles -10.509 -20.39 3.047
-  m_aUnitPrefabSlots {
-   "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et"
-   "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+  m_aUnitPrefabSlots +{
   }
   m_bSetPlayable 1
  }
@@ -194,9 +190,7 @@ $grp SCR_AIGroup : "{15D74947D242F2C1}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_Cre
   }
   coords 8699.25 827.981 9163.68
   angles -16.938 -20.407 8.454
-  m_aUnitPrefabSlots {
-   "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et"
-   "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+  m_aUnitPrefabSlots +{
   }
   m_bSetPlayable 1
  }
@@ -216,9 +210,7 @@ $grp SCR_AIGroup : "{15D74947D242F2C1}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_Cre
   }
   coords 8768.05 828.405 9175.03
   angles 26.59 -149.587 13.236
-  m_aUnitPrefabSlots {
-   "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et"
-   "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+  m_aUnitPrefabSlots +{
   }
   m_bSetPlayable 1
  }
@@ -688,12 +680,6 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
     Enabled 1
     MultiSlots {
-     MultiSlotConfiguration "{691687E88F6AB9B7}" {
-      SlotTemplate InventoryStorageSlot pnv {
-       Prefab "{39ED11CFD21DBBD2}Prefabs/Weapons/Attachments/Optics/Optic_4x20/ARY_Optic_1PN51.et"
-      }
-      NumSlots 3
-     }
      MultiSlotConfiguration "{691687E87DAECF8B}" {
       SlotTemplate InventoryStorageSlot ak {
        Prefab "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
@@ -721,6 +707,12 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
      MultiSlotConfiguration "{691687E75B1EF2E5}" {
       SlotTemplate InventoryStorageSlot rdg {
        Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{692958E7F8BCEE52}" {
+      SlotTemplate InventoryStorageSlot rdg {
+       Prefab "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
       }
       NumSlots 20
      }
@@ -753,12 +745,6 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
     Enabled 1
     MultiSlots {
-     MultiSlotConfiguration "{691687E88F6AB9B7}" {
-      SlotTemplate InventoryStorageSlot pnv {
-       Prefab "{39ED11CFD21DBBD2}Prefabs/Weapons/Attachments/Optics/Optic_4x20/ARY_Optic_1PN51.et"
-      }
-      NumSlots 3
-     }
      MultiSlotConfiguration "{691687E87DAECF8B}" {
       SlotTemplate InventoryStorageSlot ak {
        Prefab "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
@@ -786,6 +772,12 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
      MultiSlotConfiguration "{691687E75B1EF2E5}" {
       SlotTemplate InventoryStorageSlot rdg {
        Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{692958E7F8BCEE52}" {
+      SlotTemplate InventoryStorageSlot rdg {
+       Prefab "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
       }
       NumSlots 20
      }
@@ -818,12 +810,6 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
     Enabled 1
     MultiSlots {
-     MultiSlotConfiguration "{691687E88F6AB9B7}" {
-      SlotTemplate InventoryStorageSlot pnv {
-       Prefab "{39ED11CFD21DBBD2}Prefabs/Weapons/Attachments/Optics/Optic_4x20/ARY_Optic_1PN51.et"
-      }
-      NumSlots 3
-     }
      MultiSlotConfiguration "{691687E87DAECF8B}" {
       SlotTemplate InventoryStorageSlot ak {
        Prefab "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
@@ -851,6 +837,12 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
      MultiSlotConfiguration "{691687E75B1EF2E5}" {
       SlotTemplate InventoryStorageSlot rdg {
        Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{692958E7F8BCEE52}" {
+      SlotTemplate InventoryStorageSlot rdg {
+       Prefab "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
       }
       NumSlots 20
      }
@@ -883,12 +875,6 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
     Enabled 1
     MultiSlots {
-     MultiSlotConfiguration "{691687E88F6AB9B7}" {
-      SlotTemplate InventoryStorageSlot pnv {
-       Prefab "{39ED11CFD21DBBD2}Prefabs/Weapons/Attachments/Optics/Optic_4x20/ARY_Optic_1PN51.et"
-      }
-      NumSlots 3
-     }
      MultiSlotConfiguration "{691687E87DAECF8B}" {
       SlotTemplate InventoryStorageSlot ak {
        Prefab "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
@@ -916,6 +902,12 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
      MultiSlotConfiguration "{691687E75B1EF2E5}" {
       SlotTemplate InventoryStorageSlot rdg {
        Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{692958E7F8BCEE52}" {
+      SlotTemplate InventoryStorageSlot rdg {
+       Prefab "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
       }
       NumSlots 20
      }
@@ -948,12 +940,6 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
     Enabled 1
     MultiSlots {
-     MultiSlotConfiguration "{691687E88F6AB9B7}" {
-      SlotTemplate InventoryStorageSlot pnv {
-       Prefab "{39ED11CFD21DBBD2}Prefabs/Weapons/Attachments/Optics/Optic_4x20/ARY_Optic_1PN51.et"
-      }
-      NumSlots 3
-     }
      MultiSlotConfiguration "{691687E87DAECF8B}" {
       SlotTemplate InventoryStorageSlot ak {
        Prefab "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et"
@@ -981,6 +967,12 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
      MultiSlotConfiguration "{691687E75B1EF2E5}" {
       SlotTemplate InventoryStorageSlot rdg {
        Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{692958E7F8BCEE52}" {
+      SlotTemplate InventoryStorageSlot rdg {
+       Prefab "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
       }
       NumSlots 20
      }
@@ -1013,12 +1005,6 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
     Enabled 1
     MultiSlots {
-     MultiSlotConfiguration "{691687E88F6AB9B7}" {
-      SlotTemplate InventoryStorageSlot pnv {
-       Prefab "{39ED11CFD21DBBD2}Prefabs/Weapons/Attachments/Optics/Optic_4x20/ARY_Optic_1PN51.et"
-      }
-      NumSlots 3
-     }
      MultiSlotConfiguration "{691687E87DAECF8B}" {
       SlotTemplate InventoryStorageSlot ak {
        Prefab "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
@@ -1046,6 +1032,12 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
      MultiSlotConfiguration "{691687E75B1EF2E5}" {
       SlotTemplate InventoryStorageSlot rdg {
        Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{692958E7F8BCEE52}" {
+      SlotTemplate InventoryStorageSlot rdg {
+       Prefab "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
       }
       NumSlots 20
      }
@@ -1078,12 +1070,6 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
     Enabled 1
     MultiSlots {
-     MultiSlotConfiguration "{691687E88F6AB9B7}" {
-      SlotTemplate InventoryStorageSlot pnv {
-       Prefab "{39ED11CFD21DBBD2}Prefabs/Weapons/Attachments/Optics/Optic_4x20/ARY_Optic_1PN51.et"
-      }
-      NumSlots 3
-     }
      MultiSlotConfiguration "{691687E87DAECF8B}" {
       SlotTemplate InventoryStorageSlot ak {
        Prefab "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
@@ -1111,6 +1097,12 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
      MultiSlotConfiguration "{691687E75B1EF2E5}" {
       SlotTemplate InventoryStorageSlot rdg {
        Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{692958E7F8BCEE52}" {
+      SlotTemplate InventoryStorageSlot rdg {
+       Prefab "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
       }
       NumSlots 20
      }
