@@ -12,6 +12,13 @@ SCR_ChimeraCharacter : "{928DC9882A0AC79D}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
    Camouflaged 1
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{7C0CA679562DC8FD}Prefabs/Items/Backpacks/Backpack_CombatPack/Backpack_CombatPack.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
@@ -31,6 +38,12 @@ SCR_ChimeraCharacter : "{928DC9882A0AC79D}Prefabs/Characters/Factions/OPFOR/USSR
      TargetStorage "Vest/Vest_NVA_Rifleman_AK74.et/Canteen/Vest_NVA_Canteen.et"
      PrefabsToSpawn {
       "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et"
+     }
+    }
+    ItemsInitConfigurationItem "{692A66E51A3F89B8}" {
+     TargetStorage "Back/Backpack_CombatPack.et"
+     PrefabsToSpawn {
+      "{39ED11CFD21DBBD2}Prefabs/Weapons/Attachments/Optics/Optic_4x20/ARY_Optic_1PN51.et"
      }
     }
    }
