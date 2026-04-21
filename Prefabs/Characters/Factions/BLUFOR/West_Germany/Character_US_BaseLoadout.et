@@ -1,32 +1,38 @@
-SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base.et" {
- ID "520EC961A090BBD5"
+SCR_ChimeraCharacter : "{836E7E39AAC5888B}Prefabs/Characters/Factions/BLUFOR/West_Germany/Character_US_Base.et" {
+ ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{FCC1024EEBD8E6A5}Prefabs/Items/Equipment/Backpacks/Backpack_BW_Assembled.et"
+    }
     LoadoutSlotInfo Vest {
-     Prefab "{8009809D4F36357F}Prefabs/Characters/Vests/Vest_G3/Variants/Vest_BGS_standard.et"
+     Prefab "{3C67C36658257D7B}Prefabs/Characters/Vests/Vest_G3/Variants/Vest_BW_rifleman.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{692B3BE4B4AB1F10}" {
-     TargetStorage "Vest/Vest_BGS_standard.et/GrenadePouch/Pouch_DE_G3.et"
+    ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+     TargetStorage "Pants/Pants_BDU_BGS.et"
+    }
+    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+     TargetStorage "Vest/Vest_BW_rifleman.et/Suspenders/Vest_ALICE_suspenders_2.et"
+    }
+    ItemsInitConfigurationItem "{692AF7AF5CC648AD}" {
+     TargetStorage "Vest/Vest_BW_rifleman.et/MagPouch/Pouch_DE_Bundeswehr_G3.et"
      PrefabsToSpawn {
       "{7C539DF78E874543}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM11121_Mixed.et" "{7C539DF78E874543}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM11121_Mixed.et"
      }
     }
-    ItemsInitConfigurationItem "{692B3BE483BD9E03}" {
-     TargetStorage "Vest/Vest_BGS_standard.et/MagPouch_6Sh46/Pouch_DE_G3.et"
+    ItemsInitConfigurationItem "{692B3BE6066CA875}" {
+     TargetStorage "Vest/Vest_BW_rifleman.et/MagPouch2/Pouch_DE_Bundeswehr_G3.et"
      PrefabsToSpawn {
       "{7C539DF78E874543}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM11121_Mixed.et" "{7C539DF78E874543}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM11121_Mixed.et"
      }
     }
-    ItemsInitConfigurationItem "{692B3BE4FBC07E02}" {
-     TargetStorage "Vest/Vest_BGS_standard.et/Etool/Vest_BGS_buttpack.et"
+    ItemsInitConfigurationItem "{692B3BE65F80CCC3}" {
+     TargetStorage "Vest/Vest_BW_rifleman.et/Buttpack/Vest_BW_Buttpack.et"
      PrefabsToSpawn {
       "{7C539DF78E874543}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM11121_Mixed.et" "{7C539DF78E874543}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM11121_Mixed.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
@@ -35,5 +41,5 @@ SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base
   }
  }
  coords 0 0 0
- angles 0 60 0
+ angles 0 -57.487 0
 }

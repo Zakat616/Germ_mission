@@ -167,6 +167,14 @@ $grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
   angles -0.416 -102.116 -2.169
  }
 }
+SCR_AIGroup squad5 : "{3312E53484480142}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_Recon_Squad.et" {
+ components {
+  PS_GroupCallsignAssigner "{692B48A61A974EEC}" {
+  }
+ }
+ coords 8028.575 764.062 5371.814
+ angles 0 -7.165 0
+}
 $grp GenericEntity : "{70837F44CD03FD05}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Medical_01_USSR.et" {
  {
   components {
@@ -556,6 +564,9 @@ SCR_AIGroup HQ : "{74E59FCD21506034}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_HQ.et
  }
  coords 8026.94 764.062 5385.27
  angles -0.937 -97.077 -6.5
+ m_aUnitPrefabSlots +{
+  "{976AC400219898FA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_Sharpshooter.et"
+ }
  m_bSetPlayable 1
 }
 $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Weapon_01_USSR.et" {

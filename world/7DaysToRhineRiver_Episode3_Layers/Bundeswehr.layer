@@ -10,9 +10,6 @@ SCR_AIGroup bwhq : "{093CA01C354FE17A}Prefabs/Groups/BLUFOR/Group_DE_BW_HQ.et" {
  }
  coords 10045.5 769.32 6198.98
  angles -6.566 158.772 -7.491
- m_aUnitPrefabSlots +{
-  "{ADC2DE949F566202}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_Sharpshooter.et"
- }
  m_bSetPlayable 1
 }
 $grp Tank : "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et" {
@@ -66,23 +63,6 @@ $grp Tank : "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et" {
   coords 9960.09 766.935 6154.06
   angles 6.848 -119.671 -10.317
   m_sAttachmentGroupName "bwcrew4"
- }
- M113_APC5 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5E78B2EECD014A90}" {
-    MultiSlots {
-     MultiSlotConfiguration "{691211676DCE5AA9}" {
-      SlotTemplate InventoryStorageSlot pnv {
-       Prefab "{6A731F236D8AD85A}Prefabs/Characters/Items/NVG/PVS5C.et"
-      }
-      NumSlots 2
-     }
-    }
-   }
-  }
-  coords 9967.89 767.152 6157.98
-  angles 2.192 -119.633 -8.41
-  m_sAttachmentGroupName "bwcrew5"
  }
 }
 $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Ammunition_01_US.et" {
@@ -458,20 +438,6 @@ $grp SCR_AIGroup : "{6781E5B8818290F0}Prefabs/Groups/BLUFOR/Group_DE_BW_Crew.et"
   angles -8.211 148.533 -4.953
   m_bSetPlayable 1
  }
- bwcrew5 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-   PS_GroupCallsignAssigner "{690F70C20657A2F7}" {
-    m_iCompanyCallsign 4
-    m_iSquadCallsign 3
-   }
-  }
-  coords 9964.705 769.61 6161.014
-  angles -16.048 148.037 -1.215
-  m_bSetPlayable 1
- }
 }
 Vehicle M151A2_MK19_WD1 : "{82C0A9B639DEAD86}Prefabs/Vehicles/Wheeled/M151A2/M151A2_MK19_WD.et" {
  coords 10040.7 769.427 6192.45
@@ -494,8 +460,6 @@ SCR_AIGroup bwsquad2 : "{921BBEC64AFE5A29}Prefabs/Groups/BLUFOR/Group_DE_BW_Squa
   "{9A234C5857D92187}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_Medic.et"
   "{ADC2DE949F566202}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_Sharpshooter.et"
   "{33A6B925C7E45437}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_BW_AT.et"
-  "{33A6B925C7E45437}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_BW_AT.et"
-  "{A046C10142EFB93A}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_BW_AAT.et"
   "{A046C10142EFB93A}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_BW_AAT.et"
   "{5228D8F587B5EEDC}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_RTO.et"
  }

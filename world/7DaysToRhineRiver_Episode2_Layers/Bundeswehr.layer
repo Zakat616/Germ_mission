@@ -10,7 +10,6 @@ SCR_AIGroup bwhq : "{093CA01C354FE17A}Prefabs/Groups/BLUFOR/Group_DE_BW_HQ.et" {
  }
  coords 3659.992 838.323 1910.387
  angles -2.715 89.02 -1.743
- m_bSetPlayable 1
 }
 $grp Tank : "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et" {
  M113_APC2 {
@@ -392,7 +391,6 @@ $grp SCR_AIGroup : "{6781E5B8818290F0}Prefabs/Groups/BLUFOR/Group_DE_BW_Crew.et"
   }
   coords 3647.35 837.562 1851.13
   angles -1.146 0.517 5.095
-  m_bSetPlayable 1
  }
  bwcrew3 {
   components {
@@ -406,7 +404,6 @@ $grp SCR_AIGroup : "{6781E5B8818290F0}Prefabs/Groups/BLUFOR/Group_DE_BW_Crew.et"
   }
   coords 3646.99 837.562 1859.59
   angles -0.045 0.574 4.473
-  m_bSetPlayable 1
  }
 }
 Vehicle M923A1_tanker_PZG_GER1 : "{7D5A6B25C6622144}Prefabs/Vehicles/Wheeled/M923A1/M923A1 tanker PZG GER.et" {
@@ -442,7 +439,6 @@ SCR_AIGroup bwsquad2 : "{921BBEC64AFE5A29}Prefabs/Groups/BLUFOR/Group_DE_BW_Squa
   "{A046C10142EFB93A}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_BW_AAT.et"
   "{5228D8F587B5EEDC}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_RTO.et"
  }
- m_bSetPlayable 1
 }
 $grp Vehicle : "{9BDDB06E8D3E3D8D}Prefabs/Vehicles/Wheeled/M151A2/M151A2 PZG GER.et" {
  M151A2_PZG_GER1 {
@@ -482,7 +478,6 @@ $grp SCR_AIGroup : "{B9ED8E1CC65E339D}Prefabs/Groups/BLUFOR/Group_DE_BW_Squad2.e
   }
   coords 3669.51 837.867 1899.48
   angles 1.098 -85.247 -1.96
-  m_bSetPlayable 1
  }
  bwsquad4 {
   components {
@@ -493,28 +488,26 @@ $grp SCR_AIGroup : "{B9ED8E1CC65E339D}Prefabs/Groups/BLUFOR/Group_DE_BW_Squad2.e
   }
   coords 3669.07 837.801 1889.26
   angles 2.441 -85.318 -0.48
-  m_bSetPlayable 1
  }
  bwsquad5 {
-  components {
-   PS_GroupCallsignAssigner "{690F70C243120FED}" {
-    m_iCompanyCallsign 1
-   }
-  }
-  coords 6902.82 790.958 3490.48
-  angles -12.863 -139.895 5.877
-  m_bSetPlayable 1
- }
- bwsquad6 {
   components {
    PS_GroupCallsignAssigner "{690F70C243120FED}" {
     m_iCompanyCallsign 1
     m_iSquadCallsign 1
    }
   }
+  coords 6902.82 790.958 3490.48
+  angles -12.863 -139.895 5.877
+ }
+ bwsquad6 {
+  components {
+   PS_GroupCallsignAssigner "{690F70C243120FED}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
   coords 6894.26 790.938 3498.75
   angles -12.863 -139.895 5.877
-  m_bSetPlayable 1
  }
 }
 GenericEntity : "{CA1CCD5CC00C512A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/E_SupplyShippingContainers_01_20ft.et" {
@@ -799,5 +792,4 @@ SCR_AIGroup bwpilots1 : "{FFDA92EF494794CC}Prefabs/Groups/BLUFOR/Group_DE_BW_Hel
  }
  coords 3606.065 838.511 1862.582
  angles 2.902 -82.767 -1.751
- m_bSetPlayable 1
 }

@@ -32,28 +32,16 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    m_iMonth 8
    m_iYear 1988
   }
+  TMF_BroadcastService "{692B48A669926C61}" {
+  }
  }
  coords 6590.027 635.195 9844.85
+ m_iFreezeTime 300000
+ m_bDisableChat 1
+ m_bFreezeTimeShootingForbiden 1
  {
   SCR_FactionManager "6920BC99B9B4E593" {
    ID "5ED9088735FF2D8B"
   }
- }
-}
-GenericEntity {
- coords 6404.923 628.787 10153.648
-}
-$grp GenericEntity : "{CA1CCD5CC00C512A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/E_SupplyShippingContainers_01_20ft.et" {
- {
-  coords 8675.651 829.315 9136.713
-  angles 0 49.454 0
- }
- {
-  coords 8672.923 828.986 9139.168
-  angles 0 49.511 0
- }
- {
-  coords 8674.907 831.852 9138.478
-  angles -5.454 -40.592 0
  }
 }
