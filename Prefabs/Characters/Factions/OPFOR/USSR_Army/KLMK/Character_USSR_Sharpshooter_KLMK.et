@@ -9,6 +9,19 @@ SCR_ChimeraCharacter : "{976AC400219898FA}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
    Camouflaged 1
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{692CA9EB74E27979}" {
+     TargetStorage "Jacket/Jacket_Kfz1979_Blumen.et"
+    }
+    ItemsInitConfigurationItem "{559277239D4CF40C}" {
+     TargetStorage "Vest/Vest_NVA_Rifleman_AKM.et/MagPouch_6Sh46/Vest_NVA_Magpouch_AKM.et"
+    }
+    ItemsInitConfigurationItem "{5D2678DEF0F5E565}" {
+     TargetStorage "Back/Backpack_CombatPack.et"
+    }
+   }
+  }
  }
  coords 0 0 0
  angles 0 -87.074 0

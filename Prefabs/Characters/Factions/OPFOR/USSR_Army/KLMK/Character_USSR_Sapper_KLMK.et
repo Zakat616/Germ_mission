@@ -14,10 +14,24 @@ SCR_ChimeraCharacter : "{CBF7A398FE060335}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{692CA9EB74E27979}" {
+     TargetStorage "Jacket/Jacket_Kfz1979_Blumen.et"
+    }
     ItemsInitConfigurationItem "{54A68D64D7F9124F}" {
      PrefabsToSpawn {
-      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et"
+      "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et"
      }
+    }
+    ItemsInitConfigurationItem "{692CA9E8F1629317}" {
+     PrefabsToSpawn {
+      "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et"
+     }
+    }
+    ItemsInitConfigurationItem "{692CA9E8EBD6FB1F}" {
+     TargetStorage "Back/Backpack_CombatPack.et"
+    }
+    ItemsInitConfigurationItem "{692CA9E769C4B7C0}" {
+     Enabled 0
     }
     ItemsInitConfigurationItem "{6910BB3696241AC0}" {
      TargetStorage "Vest/Vest_NVA_Rifleman_AKM.et/Canteen/Vest_NVA_Canteen.et"

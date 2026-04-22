@@ -170,6 +170,8 @@ $grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
 SCR_AIGroup squad5 : "{3312E53484480142}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_Recon_Squad.et" {
  components {
   PS_GroupCallsignAssigner "{692B48A61A974EEC}" {
+   m_iCompanyCallsign 1
+   m_iSquadCallsign 2
   }
  }
  coords 8028.575 764.062 5371.814

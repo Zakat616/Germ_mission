@@ -13,4 +13,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
    }
   }
  }
+ m_aUnitPrefabSlots {
+  "{BD986584E34C57D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_SL.et" "{C080897C86DF6B4F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_SR.et" "{DDC5EABA267F9CEF}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_GL.et" "{8B8DAB0053625E96}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_Rifleman.et" "{D010949BD1C8F5C5}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_AR.et" "{97EEB4214025FBA5}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_Sharpshooter.et" "{95F01D4D24CAEC3D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_Sapper.et" "{08B8FD5AA841EB99}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_AT.et" "{8B8DAB0053625E96}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_Rifleman.et" "{9DA95787AB24F539}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_RTO.et"
+ }
 }

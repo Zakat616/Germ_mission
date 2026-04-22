@@ -1,7 +1,7 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  {
   coords 6400.408 628.612 10147.96
-  m_sTitle "Правила"
+  m_sTitle "Условности"
   m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
   m_sTextData "Условности для всех:"\
   "- Во время подготовки запрещено начинать движение на транспорте, или выдвигаться на позиции пешим ходом. Сообщение о подготовке отображается на HUD."\
@@ -34,7 +34,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 6400.408 628.612 10147.96
   m_sTitle "Задача NVA"
-  m_sTextData "1)Уничтожить Объект 33"
+  m_sTextData "1) Уничтожить Объект 33 (Подорвать антену и оборудование в бункере)"
   m_aVisibleForFactions {
    "US"
    "USSR"
@@ -46,7 +46,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 6400.408 628.612 10147.96
   m_sTitle "Задача Bundeswehr"
-  m_sTextData "1) Не дать уничтожить Объект 33"
+  m_sTextData "1) Не дать уничтожить Объект 33 (Антена и оборудование в бункере)"
   m_aVisibleForFactions {
    "US"
    "USSR"

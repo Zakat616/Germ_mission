@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{B6F05D4557B61C4E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Character_USSR_SF_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{60E6A9E7DD418527}" {
+    }
+    ItemsInitConfigurationItem "{60E6A9E7DEF195CA}" {
+     TargetStorage "Back/Backpack_CombatPack.et"
+    }
+    ItemsInitConfigurationItem "{611871E23E9CDDD3}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+}

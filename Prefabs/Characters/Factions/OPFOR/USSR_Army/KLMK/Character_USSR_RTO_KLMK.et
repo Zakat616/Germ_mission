@@ -14,15 +14,29 @@ SCR_ChimeraCharacter : "{612F43A4D5AE765F}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{692CA9EB74E27979}" {
+     TargetStorage "Jacket/Jacket_Kfz1979_Blumen.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     TargetStorage "Vest/Vest_NVA_Rifleman_AKM.et/Suspenders/Vest_NVA_Suspenders.et"
+    }
     ItemsInitConfigurationItem "{54A68D633C316499}" {
      PrefabsToSpawn {
       "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et"
      }
     }
     ItemsInitConfigurationItem "{568AD286A60FCA13}" {
+     Enabled 0
      TargetStorage "Vest/Vest_NVA_Rifleman_AKM.et/Canteen/Vest_NVA_Canteen.et"
+    }
+    ItemsInitConfigurationItem "{5D2678DECC8D48AA}" {
      PrefabsToSpawn + {
-      "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et"
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{692CA9E811284521}" {
+     PrefabsToSpawn {
+      "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et"
      }
     }
    }

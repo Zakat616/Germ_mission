@@ -1,63 +1,46 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ US_G_400_M {
+  coords 9260.504 601.768 2224.267
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Игл 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_401_M {
+  coords 9257.68 600.784 2212.153
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Игл 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
  US_G_402_M {
-  coords 9938.49 767.062 6145.13
+  coords 9252.93 598.011 2200.66
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
   m_sQuadName "undefined"
   m_fWorldSize 50
-  m_sDescription "Игл Ред 3"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "FIA"
-   "US"
-  }
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
- }
- US_G_403_M {
-  coords 9952.911 765.939 6152.564
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Игл Ред 4"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "FIA"
-   "US"
-  }
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
- }
- US_G_403_M {
-  coords 9959.399 766.451 6157.243
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Игл Ред 4"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "FIA"
-   "US"
-  }
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
- }
- US_G_403_M {
-  coords 9964.705 769.61 6161.014
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Игл Ред 4"
+  m_sDescription "Игл 3"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "FIA"
@@ -68,13 +51,81 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  US_G_000_M {
-  coords 10045.5 769.32 6198.98
+  coords 9264.01 594.143 2146.86
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
   m_sQuadName "undefined"
   m_fWorldSize 50
-  m_sDescription "Атлас Ред 1"
+  m_sDescription "Атлас 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_100_M {
+  coords 9262.71 594.007 2150.42
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Блэйзер 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_101_M {
+  coords 9247.533 593.133 2146.537
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Блэйзер 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_102_M {
+  coords 9246.029 594.601 2157.885
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Блэйзер 3"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_200_M {
+  coords 9258.44 594.177 2163.2
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Хаос 1"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "FIA"
@@ -85,13 +136,13 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  US_G_201_M {
-  coords 10042 769.375 6197.43
+  coords 9243.21 594.947 2171.96
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
   m_sQuadName "undefined"
   m_fWorldSize 50
-  m_sDescription "Хаос Ред 2"
+  m_sDescription "Хаос 2"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "FIA"
@@ -102,13 +153,13 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  US_G_202_M {
-  coords 10038.9 769.486 6186.32
+  coords 9255.76 595.187 2175.06
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
   m_sQuadName "undefined"
   m_fWorldSize 50
-  m_sDescription "Хаос Ред 3"
+  m_sDescription "Хаос 3"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "FIA"
@@ -118,82 +169,14 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_iZOrder 10
  }
- US_G_202_M {
-  coords 10029.3 769.486 6183.09
+ US_G_203_M {
+  coords 9241.55 597.584 2184.065
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
   m_sQuadName "undefined"
   m_fWorldSize 50
-  m_sDescription "Хаос Ред 3"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "FIA"
-   "US"
-  }
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
- }
- US_G_202_M {
-  coords 10029.4 769.5 6192.22
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Хаос Ред 3"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "FIA"
-   "US"
-  }
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
- }
- US_G_202_M {
-  coords 10019.1 769.299 6179.45
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Хаос Ред 3"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "FIA"
-   "US"
-  }
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
- }
- US_G_202_M {
-  coords 10017.7 769.381 6188.66
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Хаос Ред 3"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "FIA"
-   "US"
-  }
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
- }
- US_G_202_M {
-  coords 10008 768.85 6176.34
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Хаос Ред 3"
+  m_sDescription "Хаос 4"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "FIA"
@@ -204,8 +187,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  {
-  coords 9939.48 767.062 6142.13
-  angles 10.417 -25.023 -5.508
+  coords 9256.61 602.082 2225.76
+  angles 10.463 108.975 7.039
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.016 0.552 0.905 1
@@ -223,8 +206,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 9950.52 766.992 6149.26
-  angles 2.385 -28.407 -7.084
+  coords 9253.59 599.846 2212.77
+  angles 12.282 105.671 7.874
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.016 0.552 0.905 1
@@ -242,8 +225,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 9960.09 766.935 6154.06
-  angles 6.848 -29.671 -10.317
+  coords 9250.28 598.124 2202.34
+  angles 11.882 105.589 3.755
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.016 0.552 0.905 1
@@ -261,27 +244,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 9967.89 767.152 6157.98
-  angles 2.192 -29.633 -8.41
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.016 0.552 0.905 1
-  m_sQuadName "APC"
-  m_fWorldSize 2.588
-  m_sDescription "#M113-EditableEntity_M113_APC_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "FIA"
-   "US"
-  }
-  m_aHideOnGameModeStates {
-   GAME
-  }
-  m_iZOrder 0
- }
- {
-  coords 10070.8 768.694 6200.2
-  angles 8.811 -14.453 -5.646
+  coords 9251.99 592.791 2139.15
+  angles 5.052 97.018 5.708
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.016 0.552 0.905 1
@@ -299,8 +263,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 10040.7 769.427 6192.45
-  angles 1.676 -16.837 -4.168
+  coords 9246.46 595.616 2181.98
+  angles 4.196 74.529 -2.59
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.016 0.552 0.905 1
@@ -318,8 +282,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 10047.1 769.307 6194.17
-  angles 9.05 -10.333 1.529
+  coords 9248.45 594.761 2170.14
+  angles 4.259 80.307 3.131
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.016 0.552 0.905 1
@@ -337,8 +301,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 10058.5 769.024 6196.98
-  angles 5.289 -11.155 -5.567
+  coords 9251.7 593.742 2153.79
+  angles 5.524 78.684 3.542
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.016 0.552 0.905 1
@@ -356,8 +320,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 10053 769.172 6194.86
-  angles 4.104 -14.144 -5.869
+  coords 9249.21 594.283 2162.02
+  angles 7.827 77.4 -4.739
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.016 0.552 0.905 1
@@ -375,8 +339,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 10064.1 768.873 6197.44
-  angles 2.217 -17.582 -8.981
+  coords 9252.44 593.283 2146.53
+  angles 1.199 90.903 5.806
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.016 0.552 0.905 1

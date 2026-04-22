@@ -8,8 +8,8 @@ SCR_AIGroup bwhq : "{093CA01C354FE17A}Prefabs/Groups/BLUFOR/Group_DE_BW_HQ.et" {
    }
   }
  }
- coords 10045.5 769.32 6198.98
- angles -6.566 158.772 -7.491
+ coords 9264.01 594.143 2146.86
+ angles 7.68 -109.671 -13.643
  m_bSetPlayable 1
 }
 $grp Tank : "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et" {
@@ -26,8 +26,8 @@ $grp Tank : "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et" {
     }
    }
   }
-  coords 9939.48 767.062 6142.13
-  angles 10.417 -115.023 -5.508
+  coords 9256.61 602.082 2225.76
+  angles 10.463 18.975 7.039
   m_sAttachmentGroupName "bwcrew2"
  }
  M113_APC3 {
@@ -43,8 +43,8 @@ $grp Tank : "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et" {
     }
    }
   }
-  coords 9950.52 766.992 6149.26
-  angles 2.385 -118.407 -7.084
+  coords 9253.59 599.846 2212.77
+  angles 12.282 15.671 7.874
   m_sAttachmentGroupName "bwcrew3"
  }
  M113_APC4 {
@@ -60,8 +60,8 @@ $grp Tank : "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et" {
     }
    }
   }
-  coords 9960.09 766.935 6154.06
-  angles 6.848 -119.671 -10.317
+  coords 9250.28 598.124 2202.34
+  angles 11.882 15.589 3.755
   m_sAttachmentGroupName "bwcrew4"
  }
 }
@@ -110,8 +110,8 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 10027 769.5 6189.85
-  angles -0.912 -18.987 7.474
+  coords 9256.31 594.323 2165.67
+  angles -17.859 70.365 19.882
  }
  {
   components {
@@ -157,8 +157,8 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 10020.3 769.389 6182.26
-  angles -0.442 161.276 -3.164
+  coords 9245.46 594.843 2170.86
+  angles -13.013 -109.792 -8.476
  }
  {
   components {
@@ -204,8 +204,8 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 10040.3 769.408 6195.61
-  angles -1.902 -23.668 10.669
+  coords 9261.06 593.891 2152.17
+  angles -17.073 66.781 19.154
  }
  {
   components {
@@ -251,8 +251,8 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 10040.1 769.451 6189.01
-  angles 0.619 161.259 -8.695
+  coords 9249.734 593.143 2144.783
+  angles -2.243 -88.984 -4.88
  }
  {
   components {
@@ -298,8 +298,8 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 10030.1 769.5 6185.87
-  angles -1.505 161.41 -4.994
+  coords 9248.46 593.979 2156.77
+  angles -4.652 -103.34 -5.062
  }
  {
   components {
@@ -345,8 +345,8 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 10016 769.289 6186.52
-  angles 1.986 -18.638 6.479
+  coords 9253.82 595.193 2176.81
+  angles -11.69 71.224 20.331
  }
  {
   components {
@@ -392,8 +392,8 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 10008.3 768.912 6179.32
-  angles -2.789 161.574 -3.315
+  coords 9243.31 595.694 2182.74
+  angles -7.384 -85.04 -8.663
  }
 }
 $grp SCR_AIGroup : "{6781E5B8818290F0}Prefabs/Groups/BLUFOR/Group_DE_BW_Crew.et" {
@@ -406,8 +406,8 @@ $grp SCR_AIGroup : "{6781E5B8818290F0}Prefabs/Groups/BLUFOR/Group_DE_BW_Crew.et"
     m_iCompanyCallsign 4
    }
   }
-  coords 9938.49 767.062 6145.13
-  angles -5.57 161.164 -11.095
+  coords 9260.504 601.768 2224.267
+  angles 7.311 -67.254 -8.968
   m_bSetPlayable 1
  }
  bwcrew3 {
@@ -420,8 +420,8 @@ $grp SCR_AIGroup : "{6781E5B8818290F0}Prefabs/Groups/BLUFOR/Group_DE_BW_Crew.et"
     m_iSquadCallsign 1
    }
   }
-  coords 9952.911 765.939 6152.564
-  angles -7.83 149.722 -6.618
+  coords 9257.68 600.784 2212.153
+  angles 4.145 -77.33 -14.806
   m_bSetPlayable 1
  }
  bwcrew4 {
@@ -434,14 +434,14 @@ $grp SCR_AIGroup : "{6781E5B8818290F0}Prefabs/Groups/BLUFOR/Group_DE_BW_Crew.et"
     m_iSquadCallsign 2
    }
   }
-  coords 9959.399 766.451 6157.243
-  angles -8.211 148.533 -4.953
+  coords 9252.93 598.011 2200.66
+  angles 4.129 -78.489 -19.949
   m_bSetPlayable 1
  }
 }
 Vehicle M151A2_MK19_WD1 : "{82C0A9B639DEAD86}Prefabs/Vehicles/Wheeled/M151A2/M151A2_MK19_WD.et" {
- coords 10040.7 769.427 6192.45
- angles 1.676 -106.837 -4.168
+ coords 9246.46 595.616 2181.98
+ angles 4.196 -15.471 -2.59
 }
 SCR_AIGroup bwsquad2 : "{921BBEC64AFE5A29}Prefabs/Groups/BLUFOR/Group_DE_BW_Squad.et" {
  components {
@@ -452,8 +452,8 @@ SCR_AIGroup bwsquad2 : "{921BBEC64AFE5A29}Prefabs/Groups/BLUFOR/Group_DE_BW_Squa
    m_iCompanyCallsign 1
   }
  }
- coords 10042 769.375 6197.43
- angles 6.383 160.579 -6.082
+ coords 9262.71 594.007 2150.42
+ angles 21.258 -109.324 -13.283
  m_aUnitPrefabSlots {
   "{85261D5B04BFA7EE}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_SL.et"
   "{C110498284A5418F}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_GL.et"
@@ -467,27 +467,27 @@ SCR_AIGroup bwsquad2 : "{921BBEC64AFE5A29}Prefabs/Groups/BLUFOR/Group_DE_BW_Squa
 }
 $grp Vehicle : "{9BDDB06E8D3E3D8D}Prefabs/Vehicles/Wheeled/M151A2/M151A2 PZG GER.et" {
  M151A2_PZG_GER1 {
-  coords 10047.1 769.307 6194.17
-  angles 9.05 -100.333 1.529
+  coords 9248.45 594.761 2170.14
+  angles 4.259 -9.693 3.131
  }
  M151A2_PZG_GER2 {
-  coords 10058.5 769.024 6196.98
-  angles 5.289 -101.155 -5.567
+  coords 9251.7 593.742 2153.79
+  angles 5.524 -11.316 3.542
  }
 }
 $grp Vehicle : "{A59B6CE827176166}Prefabs/Vehicles/Wheeled/M151A2/M151A2 Roof PZG GER.et" {
  M151A2_Roof_PZG_GER1 {
-  coords 10053 769.172 6194.86
-  angles 4.104 -104.144 -5.869
+  coords 9249.21 594.283 2162.02
+  angles 7.827 -12.6 -4.739
  }
  M151A2_Roof_PZG_GER3 {
-  coords 10064.1 768.873 6197.44
-  angles 2.217 -107.582 -8.981
+  coords 9252.44 593.283 2146.53
+  angles 1.199 0.903 5.806
  }
 }
 Vehicle M151A2_armed_PZG_GER1 : "{B45E86F64FD17B13}Prefabs/Vehicles/Wheeled/M151A2/M151A2 armed PZG GER.et" {
- coords 10070.8 768.694 6200.2
- angles 8.811 -104.453 -5.646
+ coords 9251.99 592.791 2139.15
+ angles 5.052 7.018 5.708
 }
 $grp SCR_AIGroup : "{B9ED8E1CC65E339D}Prefabs/Groups/BLUFOR/Group_DE_BW_Squad2.et" {
  bwsquad3 {
@@ -497,8 +497,8 @@ $grp SCR_AIGroup : "{B9ED8E1CC65E339D}Prefabs/Groups/BLUFOR/Group_DE_BW_Squad2.e
     m_iSquadCallsign 1
    }
   }
-  coords 10038.9 769.486 6186.32
-  angles -0.126 -14.271 7.187
+  coords 9247.533 593.133 2146.537
+  angles -3.766 92.011 15.207
   m_bSetPlayable 1
  }
  bwsquad4 {
@@ -508,8 +508,8 @@ $grp SCR_AIGroup : "{B9ED8E1CC65E339D}Prefabs/Groups/BLUFOR/Group_DE_BW_Squad2.e
     m_iSquadCallsign 2
    }
   }
-  coords 10029.3 769.486 6183.09
-  angles 1.021 -16.155 4.038
+  coords 9246.029 594.601 2157.885
+  angles 2.93 78.964 14.825
   m_bSetPlayable 1
  }
  bwsquad5 {
@@ -518,8 +518,8 @@ $grp SCR_AIGroup : "{B9ED8E1CC65E339D}Prefabs/Groups/BLUFOR/Group_DE_BW_Squad2.e
     m_iCompanyCallsign 2
    }
   }
-  coords 10029.4 769.5 6192.22
-  angles -5.067 161.942 0.683
+  coords 9258.44 594.177 2163.2
+  angles 8.522 -107.419 -10.959
   m_bSetPlayable 1
  }
  bwsquad6 {
@@ -529,8 +529,8 @@ $grp SCR_AIGroup : "{B9ED8E1CC65E339D}Prefabs/Groups/BLUFOR/Group_DE_BW_Squad2.e
     m_iSquadCallsign 1
    }
   }
-  coords 10019.1 769.299 6179.45
-  angles -9.349 -18.457 5.688
+  coords 9243.21 594.947 2171.96
+  angles 3.95 69.284 7.791
   m_bSetPlayable 1
  }
  bwsquad7 {
@@ -540,8 +540,8 @@ $grp SCR_AIGroup : "{B9ED8E1CC65E339D}Prefabs/Groups/BLUFOR/Group_DE_BW_Squad2.e
     m_iSquadCallsign 2
    }
   }
-  coords 10017.7 769.381 6188.66
-  angles -8.253 162.299 -1.599
+  coords 9255.76 595.187 2175.06
+  angles 2.211 -106.072 -14.85
   m_bSetPlayable 1
  }
  bwsquad8 {
@@ -551,14 +551,14 @@ $grp SCR_AIGroup : "{B9ED8E1CC65E339D}Prefabs/Groups/BLUFOR/Group_DE_BW_Squad2.e
     m_iSquadCallsign 3
    }
   }
-  coords 10008 768.85 6176.34
-  angles -10.48 -18.337 5.113
+  coords 9241.55 597.584 2184.065
+  angles 16.125 92.243 13.123
   m_bSetPlayable 1
  }
 }
 GenericEntity : "{CA1CCD5CC00C512A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/E_SupplyShippingContainers_01_20ft.et" {
- coords 8106.98 764.062 5414.41
- angles 0 -99.233 0
+ coords 8576.24 804.646 4107.13
+ angles 2.142 -7.652 26.139
 }
 $grp GenericEntity : "{F0404B3895D3F80E}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Medical_01_US.et" {
  {
@@ -611,8 +611,8 @@ $grp GenericEntity : "{F0404B3895D3F80E}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 10025.6 769.5 6189.39
-  angles -0.609 -17.793 8.54
+  coords 9255.96 594.43 2167.09
+  angles -18.086 70.963 22.642
  }
  {
   components {
@@ -664,8 +664,8 @@ $grp GenericEntity : "{F0404B3895D3F80E}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 10021.8 769.442 6182.72
-  angles -0.677 162.444 -5.68
+  coords 9245.78 594.745 2169.36
+  angles -3.275 -110.083 -4.535
  }
  {
   components {
@@ -717,8 +717,8 @@ $grp GenericEntity : "{F0404B3895D3F80E}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 10038.9 769.44 6194.97
-  angles -1.214 -22.5 10.6
+  coords 9260.53 593.844 2153.59
+  angles -16.561 68.092 18.737
  }
  {
   components {
@@ -770,8 +770,8 @@ $grp GenericEntity : "{F0404B3895D3F80E}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 10041.6 769.413 6189.47
-  angles 0.145 162.277 -6.667
+  coords 9249.77 593.044 2143.2
+  angles -1.603 -89.712 -6.81
  }
  {
   components {
@@ -823,8 +823,8 @@ $grp GenericEntity : "{F0404B3895D3F80E}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 10031.6 769.5 6186.33
-  angles -1.413 162.455 -5.02
+  coords 9248.72 593.878 2155.23
+  angles -5.368 -102.226 -2.185
  }
  {
   components {
@@ -876,8 +876,8 @@ $grp GenericEntity : "{F0404B3895D3F80E}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 10014.5 769.236 6186.06
-  angles 2.31 -17.449 7.605
+  coords 9253.48 595.309 2178.33
+  angles -12.181 72.841 19.42
  }
  {
   components {
@@ -929,7 +929,7 @@ $grp GenericEntity : "{F0404B3895D3F80E}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 10011.9 769.062 6180.23
-  angles -4.172 162.869 -6.79
+  coords 9243.34 595.588 2181.4
+  angles -7.917 -85.66 -5.188
  }
 }

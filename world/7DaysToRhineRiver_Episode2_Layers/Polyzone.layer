@@ -3,10 +3,10 @@ $grp PolylineShapeEntity {
   components {
    PS_PolyZone "{6920D7C8145FBA3B}" {
     m_mPolygonTexture "{B072704FB1A499B7}UI/layouts/Textures/Grid6b.edds"
-    m_cPolygonColor 0.624 0.157 0.157 1
+    m_cPolygonColor 0.506 0.584 0.812 1
     m_fPolygonUVScale 0.44
     m_mPolygonTextureBorder ""
-    m_cPolygonBorderColor 0.502 0 0 1
+    m_cPolygonBorderColor 0 0.125 0.502 1
     m_fPolygonBorderWidth 5
     m_aVisibleForFactions {
      "USSR"
@@ -52,10 +52,10 @@ $grp PolylineShapeEntity {
   components {
    PS_PolyZone "{6920D7C8145FBA3B}" {
     m_mPolygonTexture "{B072704FB1A499B7}UI/layouts/Textures/Grid6b.edds"
-    m_cPolygonColor 0.259 0.686 0.365 1
+    m_cPolygonColor 0.749 0.376 0.376 1
     m_fPolygonUVScale 0.44
     m_mPolygonTextureBorder ""
-    m_cPolygonBorderColor 0 0.502 0.125 1
+    m_cPolygonBorderColor 0.502 0 0 1
     m_fPolygonBorderWidth 5
     m_aVisibleForFactions {
      "US"

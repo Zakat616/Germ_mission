@@ -6,6 +6,9 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
     m_Image "{1E6194CCA9E2B012}UI/PreviewImages/Characters/OPFOR/USSR/Infantry/10_BCR.edds"
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6D514AB9912003F3}Prefabs/Weapons/Rifles/AK74/Rifle_MPikm74.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
@@ -15,6 +18,12 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{692CA9E8F1629317}" {
+     TargetStorage "Vest/Vest_NVA_Rifleman_AK74.et/Canteen/Vest_NVA_Canteen.et"
+    }
+    ItemsInitConfigurationItem "{692CA9E8EBD6FB1F}" {
+     TargetStorage "Vest/Vest_NVA_Rifleman_AK74.et/GasmaskBag/Vest_NVA_GasmaskBag.et"
+    }
     ItemsInitConfigurationItem "{692958EBD6DEF3A5}" {
      TargetStorage "Back/Backpack_CombatPack_TarpRoll.et"
      PrefabsToSpawn {

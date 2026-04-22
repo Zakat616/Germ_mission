@@ -27,13 +27,19 @@ SCR_ChimeraCharacter : "{5436629450D8387A}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{692CA9EB74E27979}" {
+     TargetStorage "Jacket/Jacket_Kfz1979_Blumen.et"
+    }
     ItemsInitConfigurationItem "{54A68D6220405B43}" {
      PrefabsToSpawn {
-      "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et" "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{39ED11CFD21DBBD2}Prefabs/Weapons/Attachments/Optics/Optic_4x20/ARY_Optic_1PN51.et"
+      "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et" "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et" "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et" "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{943357591ECF8025}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_subsonic.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{39ED11CFD21DBBD2}Prefabs/Weapons/Attachments/Optics/Optic_4x20/ARY_Optic_1PN51.et"
      }
     }
     ItemsInitConfigurationItem "{5A24CC173897B74F}" {
      TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{692CA9E602469932}" {
+     Enabled 0
     }
    }
   }

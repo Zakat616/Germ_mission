@@ -6,14 +6,30 @@ SCR_ChimeraCharacter : "{3ECA3A935BC069B9}Prefabs/Characters/Factions/OPFOR/USSR
     m_Image "{AE7BE9CD5A1653FB}UI/PreviewImages/Characters/OPFOR/USSR/Infantry/1_BCR.edds"
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6D514AB9912003F3}Prefabs/Weapons/Rifles/AK74/Rifle_MPikm74.et"
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+    }
+    ItemsInitConfigurationItem "{54A68D62E0C9C689}" {
+     TargetStorage "Vest/Vest_NVA_Rifleman_AKM.et/MagPouch_6Sh46/Vest_NVA_Magpouch_AKM.et"
+    }
+    ItemsInitConfigurationItem "{568AD28065623400}" {
      PrefabsToSpawn {
-      "{1F6CF222261B1E63}Prefabs/Items/Equipment/Radios/Radio_R148_1CH.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{4A3202B2ECC6A960}Prefabs/Items/ETools/ETool_NVA/ETool_NVA_FreeRoamBuilding.et" "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et" "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+      "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5D2678DE93589E8C}" {
+     TargetStorage "Vest/Vest_NVA_Rifleman_AKM.et/Canteen/Vest_NVA_Canteen.et"
+     PrefabsToSpawn + {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
    }
   }
  }
+ coords 0 0 0
+ angles 0 141.5 0
 }

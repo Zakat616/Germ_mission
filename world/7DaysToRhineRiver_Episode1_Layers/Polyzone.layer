@@ -3,10 +3,10 @@ $grp PolylineShapeEntity {
   components {
    PS_PolyZone "{690EC422AC89D1FE}" {
     m_mPolygonTexture "{62F4404928D33DB5}UI/layouts/Textures/Grid1b.edds"
-    m_cPolygonColor 0.157 0.275 0.624 1
+    m_cPolygonColor 0.259 0.686 0.365 1
     m_fPolygonUVScale 0.44
     m_mPolygonTextureBorder ""
-    m_cPolygonBorderColor 0 0.125 0.502 1
+    m_cPolygonBorderColor 0 0.502 0.125 1
     m_fPolygonBorderWidth 5
     m_aVisibleForFactions {
      "USSR"
